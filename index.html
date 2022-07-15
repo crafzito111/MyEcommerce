@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce</title>
+    <script src="main.js" type="module"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+
+    <div id="container" class="contenedor">
+
+
+
+        <!--Loader  -->
+        <!-- <div class="content_load">
+            <img src="./img/1486.gif" alt="">
+        </div> -->
+
+
+
+        <!-- HEADER -->
+        <div id="header" class="header">
+            <div class="nav_bar">
+                <div class="nav_menu">
+
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.92 56.48" class="nav__logo-icon">
+                            <title>Academlo Logo</title>
+                            <g>
+                                <g>
+                                    <!-- <path d="M24.45,56.48,0,42.36V14.12L24.46,0,48.92,14.12V42.36ZM1.89,41.26l22.56,13L47,41.26v-26l-22.56-13-22.56,13Z"></path> -->
+                                    <path
+                                        d="M28.58,15.39H25.16L35.78,36H31.49L20.67,15.71,8.23,38.82H18.94l3-5.43h-3.4l-1.47,2.54h-4l2.69-5.09H25.85l4.28,8H40.67ZM17.23,28.21l3.57-6.6,3.57,6.6Z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg> STORE</a>
+
+
+
+                    <!-- <div class="nav_selectt ">
+                        <ul class="nav_list">
+                            <li>
+                                <a href="#"><span>Home</span></a>
+                            </li>
+
+                            <li>
+                                <a href="#">Products</a>
+                            </li>
+                        </ul>
+                    </div> -->
+
+
+                </div>
+
+                <div class="nav_btn">
+                    <a href="#"><img width="25px" src="./img/bx-moon.svg" alt=""></a>
+
+
+
+                    <div class="shop">
+
+                        <a href="#"><img width="30px" src="./img/bx-cart.svg" alt="cart"></a>
+                        <div class="amountProduct" id="amountt">0</div>
+                    </div>
+
+                    <div class="menu_mobile">
+                        <img class="icon_menu" src="./img/bx-menu.svg" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="sidebar_shop">
+                <div class="btnclose">
+                    <img class="closes" src="./img/x-svgrepo-com.svg" alt="">
+                </div>
+                <div class="content_cart">
+
+
+                </div>
+                <div class="result_cart">
+
+                </div>
+            </div>
+        </div>
+
+        <main>
+            <!-- HOME -->
+            <section class="home">
+                <div class="home_contenedor">
+
+                    <div class="muestra_shirt">
+                        <img src="./img/home.png" alt="">
+                    </div>
+
+                    <div class="home_description">
+                        <h1 class="title_product">New Sweatshirt <br> COLLECTIONS 2022</h1>
+                        <p>Latest arrival of the new Hanes Midweight Crewneck sweatshirt imported from the 2022
+                            series,
+                            with a modern design.</p>
+                        <span>$14.00</span>
+
+                        <div class="description_btn">
+                            <a href="#">Discover</a>
+                            <button>ADD TO CART</button>
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
+
+            <!-- Secciones -->
+            <section class="section">
+                <div class="section_select" data-filter="all"><a href="#">Show All <br><span>show all
+                            products</span></a></div>
+                <div class="section_select" data-filter=".hd"><a href="#">Hoodies <br><span>3 products</span></a>
+                </div>
+                <div class="section_select" data-filter=".sh"><a href="#">Shirt <br><span>4 products</span></a>
+                </div>
+                <div class="section_select" data-filter=".sw"><a href="#">Sweatshirts <br> <span>4
+                            products</span></a>
+                </div>
+            </section>
+
+            <!-- Productos -->
+
+            <section class="products">
+                <div id="products_container" class="products_container">
+
+                </div>
+            </section>
+        </main>
+
+
+
+        <!-- Footers -->
+        <footer>
+            <div class="container_footer">
+                <div class="footer_content">
+                    <h3 class="title_footer">Our information</h3>
+                    <ul class="footer_list">
+                        <li>Maracay - Venezuela</li>
+                    </ul>
+                </div>
+                <div class="footer_content">
+                    <h3 class="title_footer">About Us</h3>
+                    <ul class="footer_links">
+                        <li><a class="footer_link" href="#">Support Center</a></li>
+                        <li><a class="footer_link" href="#">Customer Support</a></li>
+                        <li><a class="footer_link" href="#">About Us</a></li>
+                        <li><a class="footer_link" href="#">Copy Right</a></li>
+                    </ul>
+                </div>
+                <div class="footer_content">
+                    <h3 class="title_footer">Product</h3>
+                    <ul class="footer_links">
+                        <li><a class="footer_link" href="#">Hoodies</a></li>
+                        <li><a class="footer_link" href="#">Shirts</a></li>
+                        <li><a class="footer_link" href="#">Shirts</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer_content">
+                    <ul class="footer_links">
+                        <h3 class="title_footer">Social</h3>
+                        <li>
+                            <a href="#" class="footer_link" target="_blank"><img src="./img/bxl-facebook.svg"
+                                    alt=""></a>
+
+                            <a href="#" class="footer_link" target="_blank"><img src="./img/bxl-twitter.svg" alt=""></a>
+
+                            <a href="#" class="footer_link" target="_blank"><img src="./img/bxl-instagram.svg"
+                                    alt=""></a>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <span class="footer_copy">© ACADEMLO - </b>Carlos Prado</b>. All rigths reserved</span>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.js"
+        integrity="sha512-fuxK9KrfYYxsXOm+VTYLEX3vOKymX2CDP+X1q0vsTwe9LPyJBSC3LXPu79ZNZiNCFrSzzMklmp5bU9Da/1TQEw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        mixitup("")
+    </script>
+
+</body>
+
+</html>
